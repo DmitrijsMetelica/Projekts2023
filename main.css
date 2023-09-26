@@ -19,7 +19,7 @@ body{
 }
 #content{
     width: 1200px;
-    min-height: 800px;
+    height: 800px;
     background-color: rgb(255, 111, 45);
 }
 .navButton{
@@ -78,4 +78,13 @@ svg text {
 a:visited{
     color: #ffffff
 }
-
+/*Formas pozicijas pozicionēšana */ 
+.login{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    margin: 0 auto;
+    
+    top:200px;
+}
